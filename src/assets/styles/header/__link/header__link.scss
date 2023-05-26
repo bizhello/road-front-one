@@ -1,0 +1,23 @@
+.header__link {
+    display: flex;
+    width: 150px;
+    padding: 7px;
+    color:white;
+    text-decoration:none;
+    border-radius:20px ;
+    transition: opacity 0.3s;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,12,205,0.8673844537815126) 0%, rgba(0,212,255,1) 100%);
+}
+.header__link::before{
+    display: block;
+    content: ' ';
+    background-image: url('../../../images/log_in.svg');
+    background-size: 18px 18px;
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+}
+.header__link:hover {
+    opacity: 0.7;
+}

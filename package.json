@@ -1,0 +1,38 @@
+{
+  "name": "road-front-one",
+  "version": "1.0.0",
+  "description": "## Описание",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bizhello/road-front-one.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bizhello/road-front-one/issues"
+  },
+  "homepage": "https://github.com/bizhello/road-front-one#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.4",
+    "cssnano": "^6.0.1",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss-loader": "^7.3.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.3.0",
+    "webpack": "^5.84.0",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "style-loader": "^3.3.3"
+  }
+}

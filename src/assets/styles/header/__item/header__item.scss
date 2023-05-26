@@ -1,0 +1,13 @@
+.header__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7%;
+    height: 25px;
+    transition: margin-bottom 0.2s;
+}
+
+.header__item:hover {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
