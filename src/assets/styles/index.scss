@@ -21,6 +21,7 @@
 @import url(./market/__item/_google/market__item_google.scss);
 
 @import url(./services/services.scss);
+@import url(./services/__background/services__background.scss);
 @import url(./services/__image/services__image.scss);
 @import url(./services/__title/services__title.scss);
 @import url(./services/__title/_span/services__title_span.scss);
@@ -31,6 +32,28 @@
 @import url(./services/__card/services__card.scss);
 @import url(./services/__card-icon/services__card-icon.scss);
 @import url(./services/__card-icon/_app/services__card-icon_app.scss);
+@import url(./services/__card-icon/_rocket/services__card-icon_rocket.scss);
+@import url(./services/__card-icon/_workflow/services__card-icon_workflow.scss);
+@import url(./services/__card-icon/_help/services__card-icon_help.scss);
+@import url(./services/__card-about/services__card-about.scss);
+@import url(./services/__card-about-link/services__card-about-link.scss);
+@import url(./services/__card-link/services__card-link.scss);
 
+@import url(./identity/identity.scss);
+@import url(./identity/__info/identity__info.scss);
+@import url(./identity/__title_span/identity__title_span.scss);
+@import url(./identity/__description/identity__description.scss);
+@import url(./identity/items/identity__items.scss);
+@import url(./identity/__item/identity__item.scss);
+@import url(./identity/__item-title/identity__item-title.scss);
+@import url(./identity/__item-description/identity__item-description.scss);
+@import url(./identity/__start/identity__start.scss);
+@import url(./identity/__image/identity__image.scss);
+@import url(./identity/__image-bg/identity__image-bg.scss);
 
-asdasd
+@import url(./comments/comments.scss);
+@import url(./comments/__title_span/comments__title_span.scss);
+@import url(./comments/__description/comments__description.scss);
+@import url(./comments/__content/comments__content.scss);
+@import url(./comments/__lists/comments__lists.scss);
+@import url(./comments/__statement/comments__statement.scss);
