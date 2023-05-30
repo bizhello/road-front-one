@@ -21,9 +21,10 @@
    */
   
   body {
-    margin: 0;
     padding: 0; /*isbad*/
     box-sizing: border-box; /*isbad*/
+    max-width: 100%;
+    margin: 0 auto;
   }
   
   /**

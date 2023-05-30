@@ -1,5 +1,17 @@
 .services__background {
     position: absolute;
-    bottom: -170px;
-    left: 0;
+    bottom: -50%;
+    left: -5%;
 }
+
+@media (max-width: 1070px)  {
+    .services__background {
+        bottom: -20%;
+    }
+  }
+
+  @media (max-width: 550px)  {
+    .services__background {
+        bottom: 0%;
+    }
+  }

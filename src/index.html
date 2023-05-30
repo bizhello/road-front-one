@@ -1,352 +1,530 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>project</title>
-</head>
-
-<body class="content">
-  <img class="content__image" src="<%=require('./assets/images/slider-left-dec.png')%>" alt="фон" />
-  <header class="header">
-    <div class="header__content">
-      <img class="logo" src="<%=require('./assets/images/logo.png')%>" alt="Логотип" />
+  <body class="content">
+    <header class="header">
+      <img
+        class="header__image"
+        src="<%=require('./assets/images/slider-left-dec.png')%>"
+        alt="фон"
+      />
+      <img
+        class="header__logo"
+        src="<%=require('./assets/images/logo.png')%>"
+        alt="Логотип"
+      />
       <nav class="header__nav">
         <ul class="header__items">
-          <li class="header__item header__item_active">Home</li>
+          <li class="header__item color_blue">Home</li>
           <li class="header__item">Services</li>
           <li class="header__item">About</li>
           <li class="header__item">Pricing</li>
           <li class="header__item">Newsletter</li>
         </ul>
-        <a class="header__link" href="#">Sign In Now</a>
+        <div class="header__button">
+          <img
+            class="header__link-logo"
+            src="<%=require('./assets/images/log_in.svg')%>"
+            alt="стрелка"
+          />
+          <a class="header__link" href="#">Sign In Now</a>
+        </div>
       </nav>
-    </div>
-  </header>
-  <main>
-    <section class="market">
-      <img class="market__image" src="<%=require('./assets/images/slider-dec.png')%>" alt="телефон" />
-      <article class="market__info">
-        <h2 class="market__title">
-          Get The Latest App From<br />
-          App Stores
+    </header>
+    <main class="main">
+      <section class="market">
+        <img
+          class="market__image"
+          src="<%=require('./assets/images/slider-dec.png')%>"
+          alt="телефон"
+        />
+        <article class="market__info">
+          <h2 class="market__title">Get The Latest App From App Stores</h2>
+          <p class="market__description">
+            Chain App Dev is an app landing page HTML5 template based on
+            Bootstrap v5.1.3 CSS<br />
+            layout provided by TemplateMo, a great website to download free CSS
+            templates.
+          </p>
+          <ul class="market__items">
+            <li class="market__item market__item_apple">
+              <a class="market__link">Free Quote</a>
+            </li>
+            <li class="market__item market__item_google">
+              <a class="market__link">Free Quote</a>
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="services">
+        <img
+          class="services__background"
+          src="<%=require('./assets/images/services-left-dec.png')%>"
+          alt="background"
+        />
+        <img
+          class="services__image"
+          src="<%=require('./assets/images/services-right-dec.png')%>"
+          alt="bacground"
+        />
+        <h2 class="services__title">
+          Amazing
+          <span class="color_blue">Services & Features</span> For You
         </h2>
-        <p class="market__description">
-          Chain App Dev is an app landing page HTML5 template based on
-          Bootstrap v5.1.3 CSS<br />
-          layout provided by TemplateMo, a great website to download free CSS
-          templates.
+        <img
+          class="services__line"
+          src="<%=require('./assets/images/heading-line-dec.png')%>"
+          alt="bacground"
+        />
+        <p class="services__description">
+          If you need the greatest collection of HTML templates for your
+          business, please visit
+          <a class="services__description_link color_blue" href="#">TooCSS</a>
+          Blog. If you need to have a contact from PHP script, go to
+          <a class="services__description_link color_blue" href="#"
+            >our contact page</a
+          >
+          for more information
         </p>
-        <ul class="market__items">
-          <li class="market__item market__item_apple">
-            <a class="market__link">Free Quote</a>
+        <ul class="services__cards">
+          <li class="services__card">
+            <div class="services__card-icon services__card-icon_app"></div>
+            <h4>App Maintenance</h4>
+            <p class="color_gray">
+              You are not allowed to redistribute this template ZIP file on any
+              other website.
+            </p>
+            <a class="services__card-link color_blue" href="#">Read More</a>
           </li>
-          <li class="market__item market__item_google">
-            <a class="market__link">Free Quote</a>
+          <li class="services__card">
+            <div class="services__card-icon services__card-icon_rocket"></div>
+            <h4>Rocket Speed of App</h4>
+            <p class="color_gray">
+              You are allowed to use the Chain App Dev HTML template. Feel free
+              to modify or edit this layout.
+            </p>
+            <a class="services__card-link color_blue" href="#">Read More</a>
+          </li>
+          <li class="services__card">
+            <div class="services__card-icon services__card-icon_workflow"></div>
+            <h4>Multi Workflow Idea</h4>
+            <p class="color_gray">
+              If this template is beneficial for your work, please support us
+              <a class="services__card-about-link" href="#"
+                >a little via PayPal</a
+              >. Thank you.
+            </p>
+            <a class="services__card-link color_blue" href="#">Read More</a>
+          </li>
+          <li class="services__card">
+            <div class="services__card-icon services__card-icon_help"></div>
+            <h4>24/7 Help & Support</h4>
+            <p class="color_gray">
+              Lorem ipsum dolor consectetur adipiscing elit sedder williamsburg
+              photo booth quinoa add fashion axe.
+            </p>
+            <a class="services__card-link color_blue" href="#">Read More</a>
           </li>
         </ul>
-      </article>
-    </section>
-    <section class="services">
-      <img class="services__background" src="<%=require('./assets/images/services-left-dec.png')%>" alt="background" />
-      <img class="services__image" src="<%=require('./assets/images/services-right-dec.png')%>" alt="bacground" />
-      <h2 class="services__title">
-        Amazing
-        <span class="services__title_span">Services & Features</span> For You
-      </h2>
-      <img class="services__line" src="<%=require('./assets/images/heading-line-dec.png')%>" alt="bacground" />
-      <p class="services__description">
-        If you need the greatest collection of HTML templates for your
-        business, please visit
-        <a class="services__description_link" href="#">TooCSS</a> Blog. If you
-        need to have a contact from PHP script, go to
-        <a class="services__description_link" href="#">our contact page</a>
-        for more information
-      </p>
-      <ul class="services__cards">
-        <li class="services__card">
-          <div class="services__card-icon services__card-icon_app"></div>
-          <h4 class="services__card-title">App Maintenance</h4>
-          <p class="services__card-about">
-            You are not allowed to redistribute this template ZIP file on any
-            other website.
+      </section>
+      <section class="identity">
+        <div class="identity__info">
+          <h2 class="identity__title">
+            About <span class="color_blue">What We Do </span>& Who We Are
+          </h2>
+          <img
+            class="identity__line"
+            src="<%=require('./assets/images/heading-line-dec.png')%>"
+            alt="line"
+          />
+          <p class="color_gray">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eismod tempor incididunt ut labore et dolore magna
           </p>
-          <a class="services__card-link" href="#">Read More</a>
-        </li>
-        <li class="services__card">
-          <div class="services__card-icon services__card-icon_rocket"></div>
-          <h4 class="services__card-title">Rocket Speed of App</h4>
-          <p class="services__card-about">
-            You are allowed to use the Chain App Dev HTML template. Feel free
-            to modify or edit this layout.
+          <div class="identity__items">
+            <div class="identity__item">
+              <h4>Maintance Problems</h4>
+              <p class="identity__item-description color_gray">
+                Lorem ipsum Text
+              </p>
+            </div>
+            <div class="identity__item">
+              <h4>24/7 Support & Help</h4>
+              <p class="identity__item-description color_gray">
+                Lorem ipsum Text
+              </p>
+            </div>
+            <div class="identity__item">
+              <h4>Fixing Issues About</h4>
+              <p class="identity__item-description color_gray">
+                Lorem ipsum Text
+              </p>
+            </div>
+            <div class="identity__item">
+              <h4>Co. Development</h4>
+              <p class="identity__item-description color_gray">
+                Lorem ipsum Text
+              </p>
+            </div>
+          </div>
+          <p class="color_gray">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eismod tempor incididunt ut labore et dolore magna
           </p>
-          <a class="services__card-link" href="#">Read More</a>
-        </li>
-        <li class="services__card">
-          <div class="services__card-icon services__card-icon_workflow"></div>
-          <h4 class="services__card-title">Multi Workflow Idea</h4>
-          <p class="services__card-about">
-            If this template is beneficial for your work, please support us
-            <a class="services__card-about-link" href="#">a little via PayPal</a>. Thank you.
-          </p>
-          <a class="services__card-link" href="#">Read More</a>
-        </li>
-        <li class="services__card">
-          <div class="services__card-icon services__card-icon_help"></div>
-          <h4 class="services__card-title">24/7 Help & Support</h4>
-          <p class="services__card-about">
-            Lorem ipsum dolor consectetur adipiscing elit sedder williamsburg
-            photo booth quinoa add fashion axe.
-          </p>
-          <a class="services__card-link" href="#">Read More</a>
-        </li>
-      </ul>
-    </section>
-    <section class="identity">
-      <div class="identity__info">
-        <h2 class="identity__title">
-          About <span class="identity__title_span">What We Do </span>& Who We
-          Are
+          <p class="identity__start">Start 14-Day Free Trial</p>
+          <p class="identity__credit color_gray">*No Credit Card Required</p>
+        </div>
+        <img
+          class="identity__image"
+          src="<%=require('./assets/images/about-right-dec.png')%>"
+          alt="bacground"
+        />
+        <img
+          class="identity__image-bg"
+          src="<%=require('./assets/images/about-bg.jpg')%>"
+          alt="bacground"
+        />
+      </section>
+      <section class="comments">
+        <h2 class="comments__title">
+          Check What
+          <span class="color_blue">The Clients Say</span> About Our App Dev
         </h2>
-        <img class="identity__line" src="<%=require('./assets/images/heading-line-dec.png')%>" alt="line" />
-        <p class="identity__description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eismod tempor incididunt ut labore et dolore magna
+        <img
+          class="comments__line"
+          src="<%=require('./assets/images/heading-line-dec.png')%>"
+          alt="line"
+        />
+        <p class="comments__description color_gray">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod
+          tempor incididunt ut labore et dolore magna
         </p>
-        <div class="identity__items">
-          <div class="identity__item">
-            <h4 class="identity__item-title">Maintance Problems</h4>
-            <p class="identity__item-description">Lorem ipsum Text</p>
-          </div>
-          <div class="identity__item">
-            <h4 class="identity__item-title">24/7 Support & Help</h4>
-            <p class="identity__item-description">Lorem ipsum Text</p>
-          </div>
-          <div class="identity__item">
-            <h4 class="identity__item-title">Fixing Issues About</h4>
-            <p class="identity__item-description">Lorem ipsum Text</p>
-          </div>
-          <div class="identity__item">
-            <h4 class="identity__item-title">Co. Development</h4>
-            <p class="identity__item-description">Lorem ipsum Text</p>
+        <div class="comments__content">
+          <ul class="comments__lists">
+            <li class="comments__list">
+              <div class="comments__name-date">
+                <p class="comments__name color_blue">David Martino Co</p>
+                <p class="color_gray">30 November 2021</p>
+              </div>
+              <p class="comments__chapter color_gray">Financial Apps</p>
+              <label class="comments__label">
+                <input
+                  class="comments__rating comments__rating_select rating--nojs"
+                  max="5"
+                  step="1"
+                  type="range"
+                  value="5"
+                />
+                <p class="color_blue">4.8</p>
+              </label>
+            </li>
+            <li class="comments__list">
+              <div class="comments__name-date">
+                <p class="comments__name">Jake Harris Nyo</p>
+                <p class="color_gray">29 November 2021</p>
+              </div>
+              <p class="comments__chapter color_gray">Digital Business</p>
+              <label class="comments__label">
+                <input
+                  class="comments__rating rating--nojs"
+                  max="5"
+                  step="1"
+                  type="range"
+                  value="5"
+                />
+                <p class="color_gray">4.5</p>
+              </label>
+            </li>
+            <li class="comments__list">
+              <div class="comments__name-date">
+                <p class="comments__name">May Catherina</p>
+                <p class="color_gray">27 November 2021</p>
+              </div>
+              <p class="comments__chapter color_gray">Business & Economics</p>
+              <label class="comments__label">
+                <input
+                  class="comments__rating rating--nojs"
+                  max="5"
+                  step="1"
+                  type="range"
+                  value="5"
+                />
+                <p class="color_gray">4.7</p>
+              </label>
+            </li>
+            <li class="comments__list">
+              <div class="comments__name-date">
+                <p class="comments__name">Random User</p>
+                <p class="color_gray">24 November 2011</p>
+              </div>
+              <p class="comments__chapter color_gray">New App Ecosystem</p>
+              <label class="comments__label">
+                <input
+                  class="comments__rating rating--nojs"
+                  max="5"
+                  step="1"
+                  type="range"
+                  value="5"
+                />
+                <p class="color_gray">3.9</p>
+              </label>
+            </li>
+            <li class="comments__list">
+              <div class="comments__name-date">
+                <p class="comments__name">Mark Amber Do</p>
+                <p class="color_gray">21 November 2021</p>
+              </div>
+              <p class="comments__chapter color_gray">Web Development</p>
+              <label class="comments__label">
+                <input
+                  class="comments__rating rating--nojs"
+                  max="5"
+                  step="1"
+                  type="range"
+                  value="5"
+                />
+                <p class="color_gray">4.3</p>
+              </label>
+            </li>
+          </ul>
+          <div class="comments__statement">
+            <div class="comments__box">
+              <img
+                src="<%=require('./assets/images/quote.png')%>"
+                alt="bacground"
+              />
+              <quote class="comments__quote-text">
+                "It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages."
+              </quote>
+            </div>
+            <div class="comments__card">
+              <img
+                class="comments__quote"
+                src="<%=require('./assets/images/client-image.jpg')%>"
+                alt="bacground"
+              />
+              <div class="comments__person">
+                <b class="comments__person-name">David Martino</b>
+                <p class="comments__person-job">CEO of David Company</p>
+              </div>
+            </div>
           </div>
         </div>
-        <p class="identity__description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eismod tempor incididunt ut labore et dolore magna
+      </section>
+      <!-- <section class="tariff">
+        <h2 class="tariff__title">
+          We have The Best Pre-Order<span class="comments__title_span">
+            Prices</span
+          >
+          You Can Get
+        </h2>
+        <img
+          class="tariff__line"
+          src="<%=require('./assets/images/heading-line-dec.png')%>"
+          alt="line"
+        />
+        <p class="comments__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod
+          tempor incididunt ut labore et dolore magna
         </p>
-        <p class="identity__start">Start 14-Day Free Trial</p>
-        <p class="identity__credit">*No Credit Card Required</p>
-      </div>
-      <img class="identity__image" src="<%=require('./assets/images/about-right-dec.png')%>" alt="bacground" />
-      <img class="identity__image-bg" src="<%=require('./assets/images/about-bg.jpg')%>" alt="bacground" />
-    </section>
-    <section class="comments">
-      <h2 class="comments__title">
-        Check What
-        <span class="comments__title_span">The Clients Say</span> About Our
-        App Dev
-      </h2>
-      <img class="comments__line" src="<%=require('./assets/images/heading-line-dec.png')%>" alt="line" />
-      <p class="comments__description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod
-        tempor incididunt ut labore et dolore magna
-      </p>
-      <div class="comments__content">
-        <ul class="comments__lists">
-          <li class="comments__list">
-            <div class="comments__name-date">
-              <p class="comments__name comments__name_select">David Martino Co</p>
-              <p class="comments__date">30 November 2021</p>
-            </div>
-            <p class="comments__chapter">Financial Apps</p>
-            <label>
-              <input class="comments__rating comments__rating_select rating--nojs" max="5" step="1" type="range"
-                value="5">
-              <p class="comments__rating-count comments__rating-count_select">4.8</p>
-            </label>
+        <ul class="tariff__items">
+          <li class="tariff__item">
+            <img
+              class="tariff__image tariff__image_top"
+              src="<%=require('./assets/images/pro-table-top.png')%>"
+              alt="line"
+            />
+            <h3 class="tariff__price">$12</h3>
+            <h4 class="tariff__price-title text-align_center">
+              Standard Plan App
+            </h4>
+            <img
+              class="tariff__logo"
+              src="<%=require('./assets/images/pricing-table-01.png')%>"
+              alt="line"
+            />
+            <p class="tariff__text text-align_center color_blue">
+              ASDkas kasdk lj
+            </p>
+            <p class="tariff__text text-align_center color_blue">ASDKH</p>
+            <p
+              class="tariff__text text-align_center color_gray text-decoration_line-through"
+            >
+              ASDi ia
+            </p>
+            <p
+              class="tariff__text text-align_center color_gray text-decoration_line-through"
+            >
+              ASDi ia
+            </p>
+            <p
+              class="tariff__text text-align_center color_gray text-decoration_line-through"
+            >
+              ASDi ia
+            </p>
+            <p
+              class="tariff__text text-align_center color_gray text-decoration_line-through"
+            >
+              ASDi ia
+            </p>
+            <button class="tariff__button">Purchase This Plan Now</button>
+            <img
+              class="tariff__image tariff__image_bottom"
+              src="<%=require('./assets/images/pro-table-bottom.png')%>"
+              alt="line"
+            />
           </li>
-          <li class="comments__list">
-            <div class="comments__name-date">
-              <p class="comments__name">Jake Harris Nyo</p>
-              <p class="comments__date">29 November 2021</p>
-            </div>
-            <p class="comments__chapter">Digital Business</p>
-            <label>
-              <input class="comments__rating rating--nojs" max="5" step="1" type="range" value="5">
-              <p class="comments__rating-count">4.5</p>
-            </label>
+          <li class="tariff__item">
+            <img
+              class="tariff__image tariff__image_top tariff__image_active"
+              src="<%=require('./assets/images/pro-table-top.png')%>"
+              alt="line"
+            />
+            <h3 class="tariff__price">$25</h3>
+            <h4
+              class="tariff__price-title tariff__price-title_active text-align_center"
+            >
+              Business Plan App
+            </h4>
+            <img
+              class="tariff__logo"
+              src="<%=require('./assets/images/pricing-table-01.png')%>"
+              alt="line"
+            />
+            <p class="tariff__text text-align_center color_blue">
+              ASDkas kasdk lj
+            </p>
+            <p class="tariff__text text-align_center color_blue">ASDKH</p>
+            <p class="tariff__text text-align_center color_blue">ASDi ia</p>
+            <p class="tariff__text text-align_center color_blue">ASDi ia</p>
+            <p
+              class="tariff__text text-align_center color_gray text-decoration_line-through"
+            >
+              ASDi ia
+            </p>
+            <p
+              class="tariff__text text-align_center color_gray text-decoration_line-through"
+            >
+              ASDi ia
+            </p>
+            <button class="tariff__button tariff__button_active">
+              Purchase This Plan Now
+            </button>
+            <img
+              class="tariff__image tariff__image_bottom tariff__image_active"
+              src="<%=require('./assets/images/pro-table-bottom.png')%>"
+              alt="line"
+            />
           </li>
-          <li class="comments__list">
-            <div class="comments__name-date">
-              <p class="comments__name">May Catherina</p>
-              <p class="comments__date">27 November 2021</p>
-            </div>
-            <p class="comments__chapter">Business & Economics</p>
-            <label>
-              <input class="comments__rating rating--nojs" max="5" step="1" type="range" value="5">
-              <p class="comments__rating-count">4.7</p>
-            </label>
-          </li>
-          <li class="comments__list">
-            <div class="comments__name-date">
-              <p class="comments__name">Random User</p>
-              <p class="comments__date">24 November 2011</p>
-            </div>
-            <p class="comments__chapter">New App Ecosystem</p>
-            <label>
-              <input class="comments__rating rating--nojs" max="5" step="1" type="range" value="5">
-              <p class="comments__rating-count">3.9</p>
-            </label>
-          </li>
-          <li class="comments__list">
-            <div class="comments__name-date">
-              <p class="comments__name">Mark Amber Do</p>
-              <p class="comments__date">21 November 2021</p>
-            </div>
-            <p class="comments__chapter">Web Development</p>
-            <label>
-              <input class="comments__rating rating--nojs" max="5" step="1" type="range" value="5">
-              <p class="comments__rating-count">4.3</p>
-            </label>
+          <li class="tariff__item">
+            <img
+              class="tariff__image tariff__image_top"
+              src="<%=require('./assets/images/pro-table-top.png')%>"
+              alt="line"
+            />
+            <h3 class="tariff__price">$66</h3>
+            <h4 class="tariff__price-title text-align_center">
+              Premium Plan App
+            </h4>
+            <img
+              class="tariff__logo"
+              src="<%=require('./assets/images/pricing-table-01.png')%>"
+              alt="line"
+            />
+            <p class="tariff__text text-align_center color_blue">
+              ASDkas kasdk lj
+            </p>
+            <p class="tariff__text text-align_center color_blue">ASDKH</p>
+            <p class="tariff__text text-align_center color_blue">ASDi ia</p>
+            <p class="tariff__text text-align_center color_blue">ASDi ia</p>
+            <p class="tariff__text text-align_center color_blue">ASDi ia</p>
+            <p class="tariff__text text-align_center color_blue">ASDi ia</p>
+            <button class="tariff__button">Purchase This Plan Now</button>
+            <img
+              class="tariff__image tariff__image_bottom"
+              src="<%=require('./assets/images/pro-table-bottom.png')%>"
+              alt="line"
+            />
           </li>
         </ul>
-        <div class="comments__statement">
-          <div class="comments__box">
-            <img src="<%=require('./assets/images/quote.png')%>" alt="bacground" />
-            <quote class="comments__quote-text">
-              "It has survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages."
-            </quote>
-          </div>
-          <div class="comments__card">
-            <img class="comments__quote" src="<%=require('./assets/images/client-image.jpg')%>" alt="bacground" />
-            <div class="comments__person">
-              <b class="comments__person-name">David Martino</b>
-              <p class="comments__person-job">CEO of David Company</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="tariff">
-      <h2 class="tariff__title">We have The Best Pre-Order<span class="comments__title_span">
-          Prices</span> You Can Get
+      </section> -->
+    </main>
+    <!-- <footer class="footer">
+      <img
+        class="footer__background"
+        src="<%=require('./assets/images/footer-bg.png')%>"
+        alt="background"
+      />
+      <h2 class="footer__title">
+        Join Our Mailing List To Receive The News & Latest Trends
       </h2>
-      <img class="tariff__line" src="<%=require('./assets/images/heading-line-dec.png')%>" alt="line" />
-      <p class="comments__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod
-        tempor incididunt ut labore et dolore magna</p>
-      <ul class="tariff__items">
-        <li class="tariff__item">
-          <img class="tariff__image tariff__image_top" src="<%=require('./assets/images/pro-table-top.png')%>"
-            alt="line" />
-          <h3 class="tariff__price">$12</h3>
-          <h4 class="tariff__price-title text-align_center">Standard Plan App</h4>
-          <img class="tariff__logo" src="<%=require('./assets/images/pricing-table-01.png')%>" alt="line" />
-          <p class="tariff__text text-align_center color_blue">ASDkas kasdk lj</p>
-          <p class="tariff__text text-align_center color_blue">ASDKH</p>
-          <p class="tariff__text text-align_center color_gray text-decoration_line-through">ASDi ia</p>
-          <p class="tariff__text text-align_center color_gray text-decoration_line-through">ASDi ia</p>
-          <p class="tariff__text text-align_center color_gray text-decoration_line-through">ASDi ia</p>
-          <p class="tariff__text text-align_center color_gray text-decoration_line-through">ASDi ia</p>
-          <button class="tariff__button">Purchase This Plan Now</button>
-          <img class="tariff__image tariff__image_bottom" src="<%=require('./assets/images/pro-table-bottom.png')%>"
-            alt="line" />
+      <label class="footer__subscribe">
+        <input class="footer__subscribe-input" placeholder="Email Adreess..." />
+        <button class="footer__subscribe-button">Subscribe Now ></button>
+      </label>
+      <ul class="footer__items">
+        <li class="footer__item">
+          <h4 class="footer__item-title">Contact Us</h4>
+          <p class="footer__text">Rio de Janeiro-RJ,22795-008,Brazil</p>
+          <p class="footer__text">010-020-0340</p>
+          <p class="footer__text">info@company.co</p>
         </li>
-        <li class="tariff__item">
-          <img class="tariff__image tariff__image_top tariff__image_active"
-            src="<%=require('./assets/images/pro-table-top.png')%>" alt="line" />
-          <h3 class="tariff__price">$25</h3>
-          <h4 class="tariff__price-title tariff__price-title_active text-align_center">Business Plan App</h4>
-          <img class="tariff__logo" src="<%=require('./assets/images/pricing-table-01.png')%>" alt="line" />
-          <p class="tariff__text text-align_center color_blue">ASDkas kasdk lj</p>
-          <p class="tariff__text text-align_center color_blue">ASDKH</p>
-          <p class="tariff__text text-align_center color_blue">ASDi ia</p>
-          <p class="tariff__text text-align_center color_blue">ASDi ia</p>
-          <p class="tariff__text text-align_center color_gray text-decoration_line-through">ASDi ia</p>
-          <p class="tariff__text text-align_center color_gray text-decoration_line-through">ASDi ia</p>
-          <button class="tariff__button tariff__button_active">Purchase This Plan Now</button>
-          <img class="tariff__image tariff__image_bottom tariff__image_active"
-            src="<%=require('./assets/images/pro-table-bottom.png')%>" alt="line" />
+        <li class="footer__item">
+          <h4 class="footer__item-title">About Us</h4>
+          <ul class="footer__item-ul">
+            <li class="footer__item-li">
+              <a class="footer__text" href="#">Home</a>
+              <a class="footer__text" href="#">Services</a>
+              <a class="footer__text" href="#">About</a>
+              <a class="footer__text" href="#">Testimonials</a>
+              <a class="footer__text" href="#">Pricing</a>
+            </li>
+            <li class="footer__item-li">
+              <a class="footer__text" href="#">About</a>
+              <a class="footer__text" href="#">Testimonials</a>
+              <a class="footer__text" href="#">Pricing</a>
+            </li>
+          </ul>
         </li>
-        <li class="tariff__item">
-          <img class="tariff__image tariff__image_top" src="<%=require('./assets/images/pro-table-top.png')%>"
-            alt="line" />
-          <h3 class="tariff__price">$66</h3>
-          <h4 class="tariff__price-title text-align_center">Premium Plan App</h4>
-          <img class="tariff__logo" src="<%=require('./assets/images/pricing-table-01.png')%>" alt="line" />
-          <p class="tariff__text text-align_center color_blue">ASDkas kasdk lj</p>
-          <p class="tariff__text text-align_center color_blue">ASDKH</p>
-          <p class="tariff__text text-align_center color_blue">ASDi ia</p>
-          <p class="tariff__text text-align_center color_blue">ASDi ia</p>
-          <p class="tariff__text text-align_center color_blue">ASDi ia</p>
-          <p class="tariff__text text-align_center color_blue">ASDi ia</p>
-          <button class="tariff__button">Purchase This Plan Now</button>
-          <img class="tariff__image tariff__image_bottom" src="<%=require('./assets/images/pro-table-bottom.png')%>"
-            alt="line" />
+        <li class="footer__item">
+          <h4 class="footer__item-title">Useful Links</h4>
+          <ul class="footer__item-ul">
+            <li class="footer__item-li">
+              <a class="footer__text" href="#">Free Apps</a>
+              <a class="footer__text" href="#">App Engine</a>
+              <a class="footer__text" href="#">Programming</a>
+              <a class="footer__text" href="#">Development</a>
+              <a class="footer__text" href="#">App news</a>
+            </li>
+            <li class="footer__item-li">
+              <a class="footer__text" href="#">App Dev Team</a>
+              <a class="footer__text" href="#">Digital Web</a>
+              <a class="footer__text" href="#">Normal Apps</a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer__item">
+          <h4 class="footer__item-title">About Our Company</h4>
+          <img
+            class="footer__logo"
+            src="<%=require('./assets/images/white-logo.png')%>"
+            alt="logo"
+          />
+          <p class="footer__text">
+            asjkhldauh sdkjh adsjkadsjlkha jkhasdjkadhljkads
+            djakshkjahdskjhadskjdhas
+          </p>
         </li>
       </ul>
-    </section>
-  </main>
-  <footer class="footer">
-    <img class="footer__background" src="<%=require('./assets/images/footer-bg.png')%>" alt="background" />
-    <h2 class="footer__title">Join Our Mailing List To Receive The News & Latest Trends</h2>
-    <label class="footer__subscribe">
-      <input class="footer__subscribe-input" placeholder="Email Adreess...">
-      <button class="footer__subscribe-button">Subscribe Now ></button>
-    </label>
-    <ul class="footer__items">
-      <li class="footer__item">
-        <h4 class="footer__item-title">Contact Us</h4>
-        <p class="footer__text">Rio de Janeiro-RJ,22795-008,Brazil</p>
-        <p class="footer__text">010-020-0340</p>
-        <p class="footer__text">info@company.co</p>
-      </li>
-      <li class="footer__item">
-        <h4 class="footer__item-title">About Us</h4>
-        <ul class="footer__item-ul">
-          <li class="footer__item-li">
-            <a class="footer__text" href="#">Home</a>
-            <a class="footer__text" href="#">Services</a>
-            <a class="footer__text" href="#">About</a>
-            <a class="footer__text" href="#">Testimonials</a>
-            <a class="footer__text" href="#">Pricing</a>
-          </li>
-          <li class="footer__item-li">
-            <a class="footer__text" href="#">About</a>
-            <a class="footer__text" href="#">Testimonials</a>
-            <a class="footer__text" href="#">Pricing</a>
-          </li>
-        </ul>
-      </li>
-      <li class="footer__item">
-        <h4 class="footer__item-title">Useful Links</h4>
-        <ul class="footer__item-ul">
-          <li class="footer__item-li">
-            <a class="footer__text" href="#">Free Apps</a>
-            <a class="footer__text" href="#">App Engine</a>
-            <a class="footer__text" href="#">Programming</a>
-            <a class="footer__text" href="#">Development</a>
-            <a class="footer__text" href="#">App news</a>
-          </li>
-          <li class="footer__item-li">
-            <a class="footer__text" href="#">App Dev Team</a>
-            <a class="footer__text" href="#">Digital Web</a>
-            <a class="footer__text" href="#">Normal Apps</a>
-          </li>
-        </ul>
-      </li>
-      <li class="footer__item">
-        <h4 class="footer__item-title">About Our Company</h4>
-        <img class="footer__logo" src="<%=require('./assets/images/white-logo.png')%>" alt="logo" />
-        <p class="footer__text">asjkhldauh sdkjh adsjkadsjlkha jkhasdjkadhljkads djakshkjahdskjhadskjdhas</p>
-      </li>
-    </ul>
-  </footer>
-</body>
-
+    </footer> -->
+  </body>
 </html>

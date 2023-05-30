@@ -1,9 +1,12 @@
 .identity {
     position: relative;
-    max-width: 3840px;
-    padding: 0 5%;
-    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    box-sizing: border-box;
+    max-width: 1440px;
+    
+    padding: 0;
+    margin: 100px 0 0;  
 }

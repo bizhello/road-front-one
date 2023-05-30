@@ -1,22 +1,26 @@
 @import url(../normalize.css);
 @import url(../fonts.css);
 
-@import url(./content/content.scss);
-@import url(./content/__image/header__image.scss);
-
 @import url(./header/header.scss);
-@import url(./header/__content/header__content.scss);
+@import url(./header/__image/header__image.scss);
 @import url(./header/__nav/header__nav.scss);
 @import url(./header/__items/header__items.scss);
 @import url(./header/__item/header__item.scss);
-@import url(./header/__item/_active/header__item_active.scss);
 @import url(./header/__link/header__link.scss);
+@import url(./header/__logo/header__logo.scss);
+@import url(./header/__button/header__button.scss);
+@import url(./header/__link-logo/header__link-logo.scss);
+
+@import url(./main/main.scss);
 
 @import url(./market/market.scss);
 @import url(./market/__image/market__image.scss);
+@import url(./market/__info/market__info.scss);
+@import url(./market/__title/market__title.scss);
 @import url(./market/__description/market__description.scss);
 @import url(./market/__items/market__items.scss);
 @import url(./market/__item/market__item.scss);
+@import url(./market/__link/market__link.scss);
 @import url(./market/__item/_apple/market__item_apple.scss);
 @import url(./market/__item/_google/market__item_google.scss);
 
@@ -24,7 +28,6 @@
 @import url(./services/__background/services__background.scss);
 @import url(./services/__image/services__image.scss);
 @import url(./services/__title/services__title.scss);
-@import url(./services/__title/_span/services__title_span.scss);
 @import url(./services/__line/services__line.scss);
 @import url(./services/__description/services__description.scss);
 @import url(./services/__description/_link/services__description_link.scss);
@@ -35,21 +38,17 @@
 @import url(./services/__card-icon/_rocket/services__card-icon_rocket.scss);
 @import url(./services/__card-icon/_workflow/services__card-icon_workflow.scss);
 @import url(./services/__card-icon/_help/services__card-icon_help.scss);
-@import url(./services/__card-about/services__card-about.scss);
 @import url(./services/__card-about-link/services__card-about-link.scss);
 @import url(./services/__card-link/services__card-link.scss);
 
 @import url(./identity/identity.scss);
 @import url(./identity/__info/identity__info.scss);
-@import url(./identity/__title_span/identity__title_span.scss);
-@import url(./identity/__description/identity__description.scss);
 @import url(./identity/items/identity__items.scss);
 @import url(./identity/__item/identity__item.scss);
-@import url(./identity/__item-title/identity__item-title.scss);
-@import url(./identity/__item-description/identity__item-description.scss);
 @import url(./identity/__start/identity__start.scss);
 @import url(./identity/__image/identity__image.scss);
 @import url(./identity/__image-bg/identity__image-bg.scss);
+@import url(./identity/item-description/identity__item-description.scss);
 
 @import url(./comments/comments.scss);
 @import url(./comments/__title_span/comments__title_span.scss);
@@ -59,19 +58,15 @@
 @import url(./comments/__list/comments__list.scss);
 @import url(./comments/__name-date/comments__name-date.scss);
 @import url(./comments/__name/comments__name.scss);
-@import url(./comments/__name/_select/comments__name_select.scss);
-@import url(./comments/__date/comments__date.scss);
 @import url(./comments/__chapter/comments__chapter.scss);
 @import url(./comments/__rating/comments__rating.scss);
-@import url(./comments/__rating/_select/comments__rating_select.scss);
-@import url(./comments/__rating-count/comments__rating-count.scss);
-@import url(./comments/__rating-count/_select/comments__rating-count_select.scss);
 @import url(./comments/__statement/comments__statement.scss);
 @import url(./comments/__box/comments__box.scss);
 @import url(./comments/__quote-text/comments__quote-text.scss);
 @import url(./comments/__card/comments__card.scss);
 @import url(./comments/__quote/comments__quote.scss);
 @import url(./comments/__person/comments__person.scss);
+@import url(./comments/__label/comments__label.scss);
 
 @import url(./tariff/tariff.scss);
 @import url(./tariff/__items/tariff__items.scss);

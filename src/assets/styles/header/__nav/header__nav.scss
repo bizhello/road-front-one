@@ -1,6 +1,12 @@
 .header__nav {
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+@media (max-width: 525px)  {
+    .header__nav {
+        width: 100%;
+    }
+  }
