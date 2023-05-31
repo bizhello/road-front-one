@@ -12,3 +12,10 @@
 .footer__subscribe-input::placeholder {
     color: white;
   }
+
+
+  @media (max-width: 715px)  {
+    .footer__subscribe-input{
+        font-size: small;
+    }
+  }

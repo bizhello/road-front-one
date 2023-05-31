@@ -1,6 +1,7 @@
 .footer__items {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
     list-style-type: none;
     margin-block-start: 0;
